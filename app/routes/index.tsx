@@ -1,7 +1,5 @@
+import { Navbar } from "~/components/index";
+
 export default function Index() {
-  return (
-    <main>
-      <h1 className="text-purple-600">Test Tailwind</h1>
-    </main>
-  );
+  return <Navbar />;
 }
