@@ -1,3 +1,49 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overflow-x: hidden;
+}
+
+.primary-heading {
+  @apply text-4xl;
+  @apply md:text-5xl;
+  @apply font-extrabold;
+  @apply text-transparent;
+  @apply bg-clip-text;
+  @apply bg-gradient-to-r;
+  @apply from-[#4BBF49];
+  @apply to-[#6e45e2];
+}
+
+.primary-btn {
+  @apply flex;
+  @apply flex-row;
+  @apply items-center;
+  @apply px-4;
+  @apply py-[6px];
+  @apply space-x-2;
+  @apply rounded-md;
+  @apply bg-gradient-to-br;
+  @apply from-[#667eea];
+  @apply to-[#764ba2];
+  @apply text-white;
+  @apply hover:bg-gradient-to-tl;
+  @apply duration-300;
+}
+
+.input {
+  @apply bg-gray-200;
+  @apply rounded-md;
+  @apply px-1;
+  @apply outline-none;
+  @apply focus:outline;
+  @apply focus:outline-[#6e45e2];
+  @apply hover:bg-gray-100;
+  @apply focus:bg-white;
+  @apply border;
+  @apply border-gray-300;
+  @apply py-1;
+  @apply w-full;
+}
