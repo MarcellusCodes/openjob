@@ -72,7 +72,7 @@ const Navbar = () => {
               <path d="M374.982 39.166a50.039 50.039 0 0 1 50.037.003l274.963 158.75A50.034 50.034 0 0 1 725 241.25v317.5a50.041 50.041 0 0 1-25.018 43.334l-274.963 158.75a50.039 50.039 0 0 1-50.037-.003l-274.964-158.75A50.034 50.034 0 0 1 75 558.75v-317.5a50.041 50.041 0 0 1 25.018-43.334l274.964-158.75Z" />
             </g>
           </svg>
-          <span className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-br from-[#667eea] to-[#764ba2]">
+          <span className="font-bold text-2xl text-transparent bg-clip-text bg-gradient-to-br from-primary to-secondary">
             OpenJob
           </span>
         </Link>
@@ -83,7 +83,7 @@ const Navbar = () => {
               key={item.id}
               to={`/${item.href}`}
               className={({ isActive }) =>
-                isActive ? activeNav : "hover:text-[#4BBF49]"
+                isActive ? activeNav : "hover:text-tertiary"
               }
             >
               {item.title}
@@ -91,7 +91,7 @@ const Navbar = () => {
           ))}
           <li>
             <NavLink
-              className="flex flex-row items-center px-4 py-[6px] space-x-2 rounded-md bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white hover:bg-gradient-to-tl duration-300"
+              className="flex flex-row items-center px-4 py-[6px] space-x-2 rounded-md bg-gradient-to-br from-primary to-secondary text-white hover:bg-gradient-to-tl duration-300"
               to="/sign-up"
             >
               <UserPlus size={16} strokeWidth={2} color={"white"} />

@@ -25,7 +25,7 @@ const Header = () => {
         </PrimaryText>
         <Link
           to="/job-posting"
-          className="px-10 py-2 bg-gradient-to-r from-[#4BBF49] to-[#6e45e2] text-white text-md sm:text-lg rounded-md hover:bg-gradient-to-l"
+          className="px-10 py-2 bg-gradient-to-r from-tertiary to-quinary text-white text-md sm:text-lg rounded-md hover:bg-gradient-to-l"
         >
           Get Started
         </Link>
@@ -92,7 +92,7 @@ const Header = () => {
             <li className="flex-shrink-0">
               <button className="flex flex-row items-center px-4 py-[6px] space-x-2 rounded-md bg-white duration-300">
                 <TextRecognition size={16} strokeWidth={2} color={"#764ba2"} />
-                <span className="text-[#764ba2] font-semibold">
+                <span className="text-secondary font-semibold">
                   Analyze Job
                 </span>
               </button>
@@ -100,7 +100,7 @@ const Header = () => {
             <li className="flex-shrink-0">
               <button className="flex flex-row items-center px-4 py-[6px] space-x-2 rounded-md bg-gray-300 duration-300">
                 <FileDescription size={16} strokeWidth={2} color={"#764ba2"} />
-                <span className="text-[#764ba2] font-semibold">
+                <span className="text-secondary font-semibold">
                   Analyze Resumee
                 </span>
               </button>
@@ -108,7 +108,7 @@ const Header = () => {
             <li className="flex-shrink-0">
               <button className="flex flex-row items-center px-4 py-[6px] space-x-2 rounded-md bg-gray-300 duration-300">
                 <NewSection size={16} strokeWidth={2} color={"#764ba2"} />
-                <span className="text-[#764ba2] font-semibold">
+                <span className="text-secondary font-semibold">
                   And more...
                 </span>
               </button>

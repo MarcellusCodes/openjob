@@ -13,8 +13,8 @@ body {
   @apply text-transparent;
   @apply bg-clip-text;
   @apply bg-gradient-to-r;
-  @apply from-[#4BBF49];
-  @apply to-[#6e45e2];
+  @apply from-tertiary;
+  @apply to-quinary;
 }
 
 .primary-btn {
@@ -26,8 +26,8 @@ body {
   @apply space-x-2;
   @apply rounded-md;
   @apply bg-gradient-to-br;
-  @apply from-[#667eea];
-  @apply to-[#764ba2];
+  @apply from-primary;
+  @apply to-secondary;
   @apply text-white;
   @apply hover:bg-gradient-to-tl;
   @apply duration-300;
@@ -39,7 +39,7 @@ body {
   @apply px-1;
   @apply outline-none;
   @apply focus:outline;
-  @apply focus:outline-[#6e45e2];
+  @apply focus:outline-quinary;
   @apply hover:bg-gray-100;
   @apply focus:bg-white;
   @apply border;

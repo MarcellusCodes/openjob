@@ -6,7 +6,7 @@ export default function Index() {
       <Advertisement />
       <Navbar />
       <Header />
-      <section className="pb-20 -mt-52 h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2]"></section>
+      <section className="pb-20 -mt-52 h-screen bg-gradient-to-br from-primary to-secondary"></section>
     </>
   );
 }
